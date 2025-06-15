@@ -108,6 +108,7 @@ The `APP_NAME` environment variable can be configured through:
   - Separate user and group to run container
   - Small LTS base image 
   - Production-ready build
+  - Image is built and tagged using semver and pushed to Docker hub
 
 ### Security
 
