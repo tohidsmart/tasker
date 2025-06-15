@@ -103,6 +103,12 @@ The `APP_NAME` environment variable can be configured through:
 
 ## 🛡️ Production Readiness Considerations
 
+### Container 
+- **Multi-stage Docker build**
+  - Separate user and group to run container
+  - Small LTS base image 
+  - Production-ready build
+
 ### Security
 
 - **RBAC (Role-Based Access Control)**: 
